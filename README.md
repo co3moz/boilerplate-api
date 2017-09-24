@@ -19,7 +19,8 @@ npm install
 npm start
 ```
 
-Test
+Tests
+---------------
 
 ```
 npm test
