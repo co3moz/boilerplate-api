@@ -1,0 +1,11 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^4.11.7",
+    "glob": "^7.1.2",
+    "config": "^1.26.2",
+    "log": "file:../log"
+  }
+}

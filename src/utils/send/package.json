@@ -1,0 +1,8 @@
+{
+  "name": "send",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}

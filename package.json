@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-api",
+  "version": "1.0.0",
+  "description": "Boilerplate API",
+  "private": true,
+  "main": "src/app.js",
+  "scripts": {
+    "preinstall": "npm install log send route-loader db express config mocha body-parser",
+    "start": "node .",
+    "test": "mocha ./test/**.test.js"
+  },
+  "keywords": [],
+  "author": "co3moz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.26.2",
+    "db": "file:src\\utils\\db",
+    "express": "^4.15.4",
+    "log": "file:src\\utils\\log",
+    "mocha": "^3.5.3",
+    "route-loader": "file:src\\utils\\route-loader",
+    "send": "file:src\\utils\\send"
+  }
+}

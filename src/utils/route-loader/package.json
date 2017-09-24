@@ -1,0 +1,11 @@
+{
+  "name": "route-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "express": "^4.15.4",
+    "body-parser": "^1.17.2",
+    "log": "file:../log"
+  }
+}
