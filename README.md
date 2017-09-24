@@ -1,13 +1,14 @@
-Node.js - Mongodb Modern Boilerplate
+Express - Mongodb Modern Boilerplate
 =====================
 
 Features
 ---------------
 
 * Auto model loader
-* Mongodb
+* Mongodb connection creator
 * Express
 * Auto route loader
+* Basic config standardization
 
 
 
@@ -35,7 +36,7 @@ Create file that has ".model.js" extension. It will look for at the begining the
 Routes
 -----------------------
 
-All routes are automaticly calculating by project structure.
+All routes are automaticly calculating by project structure. Files must end with ".route.js" extension.
 
 * index.route.js -> /
 * [filename].route.js -> /filename
